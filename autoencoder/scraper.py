@@ -2,7 +2,7 @@ from urllib.request import urlopen, urlretrieve
 from bs4 import BeautifulSoup
 import time
 
-save_dir = "./audios/"
+save_dir = "./data/"
 
 url0 = "https://www.mutopiaproject.org/cgibin/make-table.cgi?startat="
 url1 = "&searchingfor=&Composer=&Instrument=Guitar&Style=&collection=&id=&solo=&recent=&timelength=&timeunit=&lilyversion=&preview="
